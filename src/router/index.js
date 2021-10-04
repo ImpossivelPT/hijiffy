@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Home from '../views/Home.vue'
 import Users from '../views/Users.vue'
 
 import contentPage from '../views/layouts/contentPage'
@@ -12,11 +11,6 @@ const routes = [
     {
         path: '/',
         name: 'Home',
-        component: Home
-    },
-    {
-        path: '/users',
-        name: 'Users',
         component: contentPage,
         children: [
             {
@@ -25,7 +19,7 @@ const routes = [
                 component: Users
             }
         ]
-    },
+    }
 ]
 
 const router = new VueRouter({
