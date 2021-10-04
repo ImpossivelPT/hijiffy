@@ -37,7 +37,7 @@
                     :itemsPerPage="itemsPerPage"
                     @nextPage="nextPage()"
                     @previousPage="previousPage()"
-                    @goToPage="goToPage()"
+                    @goToPage="goToPage($event)"
                 />
                 
                 <div class="filterShow">
@@ -168,8 +168,9 @@ export default {
         previousPage: function() {
             this.currentPage--
         },
-        goToPage: function($e) {
-            this.currentPage = $e
+        goToPage: function($event) {
+            console.log($event)
+            this.currentPage = $event
         },
     }
 }

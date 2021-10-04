@@ -1,9 +1,9 @@
 <template>
     <div class="paginationWrapper">
         <img @click="clickPrevious()" class="arrowImg" :class="{'off':currentPage == 1}" src="@/assets/icons/chevron-left-solid.svg" alt="Arrow Left">
-        <span class="prevBtn" :class="{'off':currentPage == 1}">Prev</span>
-        <span class="pageNr" :class="{'selected':page == currentPage}"  v-for="page in totalPagesCalculated" :key="page">{{page}}</span>
-        <span class="nextBtn" :class="{'off':currentPage == totalPagesCalculated}">Next</span>
+        <span @click="clickPrevious()" class="prevBtn" :class="{'off':currentPage == 1}">Prev</span>
+        <span @click="goToPage(page)" class="pageNr" :class="{'selected':page == currentPage}"  v-for="page in totalPagesCalculated" :key="page">{{page}}</span>
+        <span @click="clickNext()" class="nextBtn" :class="{'off':currentPage == totalPagesCalculated}">Next</span>
         <img @click="clickNext()" class="arrowImg" :class="{'off':currentPage == totalPagesCalculated}" src="@/assets/icons/chevron-right-solid.svg" alt="Arrow Right">
     </div>
 </template>
