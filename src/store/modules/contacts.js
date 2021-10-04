@@ -77,11 +77,11 @@ export default {
             },
             {
                 id: 7,
-                name: 'Martin Merdces',
-                email: 'martin.merces@gmail.com',
+                name: 'Sean Connery',
+                email: 'sean.connery@gmail.com',
                 company: {
-                    name: 'Google',
-                    role: 'Manager'
+                    name: 'Bond Tech',
+                    role: 'CEO'
                 },
                 lastActivity: 'Jan 29, 2021',
                 color: '#2878b7',
@@ -89,11 +89,11 @@ export default {
             },
             {
                 id: 8,
-                name: 'Franz Ferdinand',
-                email: 'Franz.ferdinand@gmail.com',
+                name: 'David Niven',
+                email: 'david.niven@gmail.com',
                 company: {
-                    name: 'Facebook',
-                    role: 'Manager'
+                    name: 'BondoGoodStuff Inc',
+                    role: 'Sales Rep'
                 },
                 lastActivity: 'Dec 30, 2020',
                 color: '#c2cfe0',
@@ -101,98 +101,98 @@ export default {
             },
             {
                 id: 9,
-                name: 'Lindsey Stroud',
-                email: 'lindsey.stroud@gmail.com',
+                name: 'George Lazenby',
+                email: 'george.lazenby@gmail.com',
                 company: {
-                    name: 'Hatchbuck',
-                    role: 'Manager'
+                    name: 'BondoGoodStuff Inc',
+                    role: 'CEO'
                 },
                 lastActivity: 'Apr 1, 2021',
-                color: '#a1a1a1',
+                color: '#32b353',
                 colorContrast: '#FFF'
             },
             {
                 id: 10,
-                name: 'Nicci Troiani',
-                email: 'nicci.troiani@gmail.com',
+                name: 'Roger Moore',
+                email: 'roger.moore@gmail.com',
                 company: {
-                    name: 'Slack',
-                    role: 'Manager'
+                    name: 'Bond Night Club',
+                    role: 'Bouncer'
                 },
                 lastActivity: 'Mar 25, 2021',
-                color: '#a607f0',
+                color: '#a33bcb',
                 colorContrast: '#FFF'
             },
             {
                 id: 11,
-                name: 'George Fields',
-                email: 'george.fields@gmail.com',
+                name: 'Timothy Dalton',
+                email: 'timothy.dalton@gmail.com',
                 company: {
-                    name: 'Clockify',
-                    role: 'CEO'
+                    name: 'The living daylights',
+                    role: 'Manager'
                 },
                 lastActivity: 'Mar 23, 2021',
-                color: '#feca11',
+                color: '#02af98',
                 colorContrast: '#000'
             },
             {
                 id: 12,
-                name: 'Rebecca Moore',
-                email: 'rebecca.moore@gmail.com',
+                name: 'Pierce Brosnan',
+                email: 'pierce.brosnan@gmail.com',
                 company: {
-                    name: 'Upwork',
-                    role: 'Manager'
+                    name: 'GoldenEye',
+                    role: 'CEO'
                 },
                 lastActivity: 'Mar 14, 2021',
-                color: '#f5fa14',
+                color: '#e2ab80',
                 colorContrast: '#000'
             },
             {
                 id: 13,
-                name: 'Jane Doe',
-                email: 'jane.doe@gmail.com',
+                name: 'Daniel Craig',
+                email: 'daniel-craig@gmail.com',
                 company: {
-                    name: 'Trello',
-                    role: 'Engineer'
+                    name: 'Casino Royale',
+                    role: 'Dealer'
                 },
                 lastActivity: 'Mar 7, 2021',
-                color: '#10ce51',
+                color: '#30a8ef',
                 colorContrast: '#000'
             },
             {
                 id: 14,
-                name: 'Janes Dermot',
-                email: 'janes.dernot@gmail.com',
+                name: 'Sundar Pichai',
+                email: 'sundar.pichai@sapo.pt',
                 company: {
-                    name: 'Slack',
-                    role: 'Developer'
+                    name: 'Google',
+                    role: 'CEO'
                 },
                 lastActivity: 'Feb 19, 2021',
-                color: '#f40000',
+                color: '#252c70',
                 colorContrast: '#FFF'
             },
             {
                 id: 15,
-                name: 'Martin Merdces',
-                email: 'martin.merces@gmail.com',
+                name: 'Hugh Laurie',
+                email: 'hugh.laurie@gmail.com',
                 company: {
-                    name: 'Google',
-                    role: 'Manager'
+                    name: 'Plainsboro Princeton',
+                    role: 'Doctor'
                 },
                 lastActivity: 'Jan 29, 2021',
-                color: '#2878b7',
+                color: '#9a59a1',
                 colorContrast: '#FFF'
             },
             {
                 id: 16,
-                name: 'Franz Ferdinand',
-                email: 'Franz.ferdinand@gmail.com',
+                name: 'Charon',
+                email: 'charon@gmail.com',
                 company: {
-                    name: 'Facebook',
-                    role: 'Manager'
+                    name: 'New York Continental Hotel',
+                    role: 'Concierge'
                 },
                 lastActivity: 'Dec 30, 2020',
-                color: '#c2cfe0',
+                color: '#a6daf5',
                 colorContrast: '#000'
             },
         ]
